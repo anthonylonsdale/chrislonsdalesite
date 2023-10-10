@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b36268c.css",
-    "main.js": "/static/js/main.b3969597.js",
+    "main.css": "/static/css/main.28e2c4d7.css",
+    "main.js": "/static/js/main.a138f62f.js",
     "static/media/clonsdale_cmpnphoto.jpeg": "/static/media/clonsdale_cmpnphoto.89abeb791bccb81d2b5c.jpeg",
+    "static/media/chrislonsdale_landscape.jpg": "/static/media/chrislonsdale_landscape.c5abee09a3cf8bc16db1.jpg",
     "index.html": "/index.html",
-    "main.1b36268c.css.map": "/static/css/main.1b36268c.css.map",
-    "main.b3969597.js.map": "/static/js/main.b3969597.js.map"
+    "main.28e2c4d7.css.map": "/static/css/main.28e2c4d7.css.map",
+    "main.a138f62f.js.map": "/static/js/main.a138f62f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b36268c.css",
-    "static/js/main.b3969597.js"
+    "static/css/main.28e2c4d7.css",
+    "static/js/main.a138f62f.js"
   ]
 }
