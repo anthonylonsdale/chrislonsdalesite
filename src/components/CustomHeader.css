@@ -1,0 +1,47 @@
+.site-layout-background {
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+}
+
+.ant-menu {
+  background: #000000; /* Background color of the Menu */
+  color: #fff; /* Text color of the Menu */
+}
+
+.site-layout-background .custom-menu .custom-menu-item a {
+  color: #fff; /* Text color on hover */
+}
+
+.site-layout-background .custom-menu .custom-menu-item:hover a {
+  color: #fff; /* Text color on hover */
+}
+
+.custom-menu-item svg {
+  fill: #fff; /* This ensures the color of SVG icons remains consistent */
+}
+
+.custom-menu-item:hover svg {
+  fill: #fff;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.custom-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-logo {
+  height: 100px;  
+  width: 200px;
+  vertical-align: middle;
+}

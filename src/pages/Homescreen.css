@@ -1,0 +1,39 @@
+.text-container {
+    display: inline-block; /* Make the container inline to fit the text width */
+    white-space: nowrap; /* Prevent line breaks within the text */
+    overflow: hidden; /* Hide overflow to clip the animation */
+    width: 100%; /* Set a fixed width for the container */
+  }
+  
+
+  .header-logo {
+    object-fit: contain;
+  }
+  
+  .layout-min-height {
+    min-height: 100vh;
+  }
+  
+  .content-style {
+    padding: 24px;
+    min-height: 280px;
+  }
+  
+  .space-direction {
+    width: 100%;
+  }
+  
+  .flex-container {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-margin {
+    margin-block-start: 36px;
+  }
+  
+  .campaign-image {
+    max-width: 100%;
+  }
