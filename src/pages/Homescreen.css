@@ -15,6 +15,24 @@
     justify-content: center;
     text-align: center;
   }
+
+  .color-button {
+    background-color: #4CAF50;  /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .color-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
   
   .carousel-image {
     max-width: 100%;
