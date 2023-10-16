@@ -28,16 +28,12 @@ function Homescreen() {
       <Content className="content-style">
         <Space direction="vertical" className="space-direction">
           <div className="flex-container">
-            <Col>
-              <Title level={2} >
-                  Proudly Representing Liberty
-              </Title>
-              <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate">
-                <Button className="color-button">
-                  Donate Now
-                </Button>
-              </Link>
-            </Col>
+          <Col className="text-center">
+            <Title level={2}>Proudly Representing Liberty</Title>
+            <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate">
+              <Button className="color-button">Donate</Button>
+            </Link>
+          </Col>
             <img style={{ width: '20rem', height: '25rem'}} src={replonsdale} alt="img3" />
           </div>
           <Divider />

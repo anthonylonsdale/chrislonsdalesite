@@ -21,7 +21,7 @@ function ContactForm() {
     return (
         <div className={styles.form}>
             <div className={styles.flexContainer}>
-                <a href="https://www.facebook.com/your-facebook-page-url">
+                <a href="https://www.facebook.com/CitizensForChrisLonsdale">
                     <FacebookOutlined style={{ fontSize: '2rem'}} />
                 </a>
             </div>

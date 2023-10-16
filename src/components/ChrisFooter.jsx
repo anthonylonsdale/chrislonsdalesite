@@ -1,11 +1,15 @@
+import {
+  FacebookOutlined,
+  MailOutlined,
+} from '@ant-design/icons';
 import { Image, Layout, Typography } from 'antd';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../images/clonsdale_staterep.jpeg';
 import styles from './Footer.module.css';
 
-import logo from '../images/clonsdale_cmpnphoto.jpeg';
-
 const { Footer } = Layout
-const { Title } = Typography
+const { Title} = Typography
 
 function AppFooter() {
   return (
@@ -14,22 +18,39 @@ function AppFooter() {
         <Image
           src={logo}
           alt="Logo"
-          style={{ width: '20rem' }}
+          style={{ width: '18rem' }}
           preview={false}
         />
-        <div>
-          <Title level={5} className={styles.footerText}>
-            Paid for by Citizens for Chris Lonsdale
-          </Title>
+        <div className={styles.buttonLikeText}>
+          Paid for by Citizens for Chris Lonsdale. Howard Lonsdale, Treasurer.
         </div>
-        <div>
-          <Title level={5} className={styles.footerText}>
-            Howard Lonsdale, Treasurer
-          </Title>
+        <div className={styles.contactInfo}>
+          <div className={styles.contactItem}>
+            <MailOutlined className={styles.mailIcon} size='' />
+            <div>
+              <Title level={5} className={styles.footerText}>
+                Chris.Lonsdale@house.mo.gov
+              </Title>
+            </div>
+          </div>
+          <div className={styles.contactItem}>
+            <FacebookOutlined className={styles.facebookIcon} />
+            <div>
+              <Title level={5} className={styles.footerText}>
+                <Link
+                  href="https://www.facebook.com/CitizensForChrisLonsdale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Citizens For Chris Lonsdale
+                </Link>
+              </Title>
+            </div>
+          </div>
         </div>
       </div>
     </Footer>
   );
 }
 
-export default AppFooter
+export default AppFooter;

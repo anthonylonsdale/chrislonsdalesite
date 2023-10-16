@@ -10,6 +10,46 @@
     
     .footerText {
       color: #FFF;
+      margin-bottom: 1.5rem;
     }
   }
+}
+
+.buttonLikeText {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f5f5f5;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.iconAndText {
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.mailIcon {
+  color: #f5f5f5;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Style for the Facebook icon */
+.facebookIcon {
+  color: #f5f5f5;
+  font-size: 18px;
+  margin-right: 8px;
 }
