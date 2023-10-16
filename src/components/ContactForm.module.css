@@ -10,44 +10,8 @@
     background: #fff;
 }
 
-.inputGroup {
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.input,
-.textarea {
-    width: 90%;
-    padding: 10px 15px;
-    border: 1px solid #e4e4e4;
-    border-radius: 6px;
-    background: #f8f8f8;
-    font-size: 16px;
-    transition: border-color 0.3s;
-}
-
-.input:focus,
-.textarea:focus {
-    border-color: #0070f3;
-    outline: none;
-}
-
-.textarea {
-    resize: vertical;
-    min-height: 120px;
-}
-
-.button {
-    padding: 10px 20px;
-    background-color: #0070f3;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0050c3;
-}
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
