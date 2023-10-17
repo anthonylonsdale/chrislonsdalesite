@@ -22,7 +22,7 @@ function AppFooter() {
           preview={false}
         />
         <div className={styles.buttonLikeText}>
-          Paid for by Citizens for Chris Lonsdale. Howard Lonsdale, Treasurer.
+          &copy; {new Date().getFullYear()} - Paid for by Citizens for Chris Lonsdale. Howard Lonsdale, Treasurer.
         </div>
         <div className={styles.contactInfo}>
           <div className={styles.contactItem}>
@@ -38,9 +38,8 @@ function AppFooter() {
             <div>
               <Title level={5} className={styles.footerText}>
                 <Link
-                  href="https://www.facebook.com/CitizensForChrisLonsdale"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  to="https://www.facebook.com/CitizensForChrisLonsdale"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Citizens For Chris Lonsdale
                 </Link>

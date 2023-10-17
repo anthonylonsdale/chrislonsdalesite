@@ -30,7 +30,7 @@ function Homescreen() {
           <div className="flex-container">
           <Col className="text-center">
             <Title level={2}>Proudly Representing Liberty</Title>
-            <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate">
+            <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">
               <Button className="color-button">Donate</Button>
             </Link>
           </Col>

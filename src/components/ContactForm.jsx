@@ -1,6 +1,7 @@
 import { FacebookOutlined } from '@ant-design/icons';
 import { Button, Form, Input, message } from 'antd';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './ContactForm.module.css';
 
 function ContactForm() {
@@ -21,11 +22,11 @@ function ContactForm() {
     return (
         <div className={styles.form}>
             <div className={styles.flexContainer}>
-                <a href="https://www.facebook.com/CitizensForChrisLonsdale">
+                <Link to="https://www.facebook.com/CitizensForChrisLonsdale" target="_blank" rel="noopener noreferrer">
                     <FacebookOutlined style={{ fontSize: '2rem'}} />
-                </a>
+                </Link>
             </div>
-            <Form onSubmit={handleSubmit}>
+            <Form onFinish={handleSubmit}>
                 <Form.Item>
                     <Input
                     type="text"
@@ -51,7 +52,7 @@ function ContactForm() {
                     />
                 </Form.Item>
                 <Form.Item>
-                    <Button type="primary" htmlType="submit">
+                    <Button type="primary" htmlType="submit" className={styles.submitButton}>
                     Submit
                     </Button>
                 </Form.Item>

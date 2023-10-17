@@ -19,9 +19,7 @@ function CustomHeader() {
     return (
         <Header className="site-layout-background">
             <div className="header-right">
-                <Link to="/" className="logo-link">
-                    <img src={logo} alt="Logo" className="header-logo" />
-                </Link>
+                <img src={logo} alt="Logo" className="header-logo" />
                 <Menu
                     mode="horizontal"
                     className="disable-select custom-menu"
@@ -41,7 +39,7 @@ function CustomHeader() {
                         style={{ width: '200px' }}
                         icon={<IdcardOutlined />}
                     >
-                        <Link to="https://house.mo.gov/MemberDetails.aspx?year=2023&code=R&district=038&category=cosponsor">MO House Website</Link>
+                        <Link to="https://house.mo.gov/MemberDetails.aspx?year=2023&code=R&district=038&category=cosponsor" target="_blank" rel="noopener noreferrer">MO House Website</Link>
                     </Menu.Item>
                     <Menu.Item
                         key="3"
@@ -49,7 +47,7 @@ function CustomHeader() {
                         style={{ width: '100px' }}
                         icon={<DollarOutlined />}
                     >
-                        <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate">Donate</Link>
+                        <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">Donate</Link>
                     </Menu.Item>
                 </Menu>
             </div>
