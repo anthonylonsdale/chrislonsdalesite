@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.408ca8fe.css",
-    "main.js": "/static/js/main.3ca910cf.js",
+    "main.css": "/static/css/main.c34ebf54.css",
+    "main.js": "/static/js/main.4f07d667.js",
     "static/media/clonsdale_staterep.jpeg": "/static/media/clonsdale_staterep.091849931b027d0d515b.jpeg",
-    "static/media/clonsdale_cmpnphoto.jpeg": "/static/media/clonsdale_cmpnphoto.89abeb791bccb81d2b5c.jpeg",
     "static/media/clonsdale_awardpresentation.jpg": "/static/media/clonsdale_awardpresentation.9687a514869105231063.jpg",
     "static/media/replonsdale.jpg": "/static/media/replonsdale.505cbf002931c2f6cc63.jpg",
     "static/media/chrislonsdale_landscape.jpg": "/static/media/chrislonsdale_landscape.c5abee09a3cf8bc16db1.jpg",
     "static/media/clonsdale_legislatoroftheyear.jpg": "/static/media/clonsdale_legislatoroftheyear.a42ad23ba367715de719.jpg",
     "static/media/clonsdale_eaglescout.jpg": "/static/media/clonsdale_eaglescout.341a31088c75a6a94ebd.jpg",
     "index.html": "/index.html",
-    "main.408ca8fe.css.map": "/static/css/main.408ca8fe.css.map",
-    "main.3ca910cf.js.map": "/static/js/main.3ca910cf.js.map"
+    "main.c34ebf54.css.map": "/static/css/main.c34ebf54.css.map",
+    "main.4f07d667.js.map": "/static/js/main.4f07d667.js.map"
   },
   "entrypoints": [
-    "static/css/main.408ca8fe.css",
-    "static/js/main.3ca910cf.js"
+    "static/css/main.c34ebf54.css",
+    "static/js/main.4f07d667.js"
   ]
 }
