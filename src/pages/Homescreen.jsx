@@ -30,7 +30,7 @@ function Homescreen() {
           <div className="flex-container">
           <Col className="text-center">
             <Title level={2}>Proudly Representing Liberty</Title>
-            <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">
+            <Link to="https://secure.winred.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">
               <Button className="color-button">Donate</Button>
             </Link>
           </Col>
@@ -42,21 +42,21 @@ function Homescreen() {
                 Fighting for District 38
             </Title>
           </div>
-          <div className="flex-container">
-            <Carousel autoplay style={{ width: '800px', height: '500px', overflow: 'hidden', alignItems: 'center' }}>
-              <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <img className="carousel-image" src={lonsdalephoto} alt="img1" />
-              </div>
-              <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <img className="carousel-image" src={lonsdalephoto2} alt="img2" />
-              </div>
-              <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <img className="carousel-image" src={lonsdalephoto3} alt="img3" />
-              </div>
-              <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <img className="carousel-image" src={lonsdalephoto4} alt="img4" />
-              </div>
-            </Carousel>
+          <div className="carousel-container">
+              <Carousel autoplay>
+                <div className="carousel-item">
+                  <img className="carousel-image" src={lonsdalephoto} />
+                </div>
+                <div className="carousel-item">
+                  <img className="carousel-image" src={lonsdalephoto2} />
+                </div>
+                <div className="carousel-item">
+                  <img className="carousel-image" src={lonsdalephoto3} />
+                </div>
+                <div className="carousel-item">
+                  <img className="carousel-image" src={lonsdalephoto4} />
+                </div>
+              </Carousel>
           </div>
           <Divider />
           <div className="flex-container">
