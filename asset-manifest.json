@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c34ebf54.css",
-    "main.js": "/static/js/main.4f07d667.js",
+    "main.css": "/static/css/main.e50b5106.css",
+    "main.js": "/static/js/main.30ef728f.js",
     "static/media/clonsdale_staterep.jpeg": "/static/media/clonsdale_staterep.091849931b027d0d515b.jpeg",
     "static/media/clonsdale_awardpresentation.jpg": "/static/media/clonsdale_awardpresentation.9687a514869105231063.jpg",
     "static/media/replonsdale.jpg": "/static/media/replonsdale.505cbf002931c2f6cc63.jpg",
@@ -9,11 +9,11 @@
     "static/media/clonsdale_legislatoroftheyear.jpg": "/static/media/clonsdale_legislatoroftheyear.a42ad23ba367715de719.jpg",
     "static/media/clonsdale_eaglescout.jpg": "/static/media/clonsdale_eaglescout.341a31088c75a6a94ebd.jpg",
     "index.html": "/index.html",
-    "main.c34ebf54.css.map": "/static/css/main.c34ebf54.css.map",
-    "main.4f07d667.js.map": "/static/js/main.4f07d667.js.map"
+    "main.e50b5106.css.map": "/static/css/main.e50b5106.css.map",
+    "main.30ef728f.js.map": "/static/js/main.30ef728f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34ebf54.css",
-    "static/js/main.4f07d667.js"
+    "static/css/main.e50b5106.css",
+    "static/js/main.30ef728f.js"
   ]
 }
