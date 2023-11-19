@@ -47,7 +47,7 @@ function CustomHeader() {
                         style={{ width: '100px' }}
                         icon={<DollarOutlined />}
                     >
-                        <Link to="https://secure.anedot.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">Donate</Link>
+                        <Link to="https://secure.winred.com/citizens-for-chris-lonsdale/donate" target="_blank" rel="noopener noreferrer">Donate</Link>
                     </Menu.Item>
                 </Menu>
             </div>
